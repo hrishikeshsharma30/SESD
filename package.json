@@ -1,0 +1,24 @@
+{
+  "name": "virtual-stock-exchange",
+  "version": "1.0.0",
+  "description": "Virtual Stock Exchange and Trading System - College Project for Software Engineering and System Design (SESD)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "npm --prefix backend test"
+  },
+  "keywords": [
+    "virtual-stock-exchange",
+    "order-matching-engine",
+    "sesd",
+    "trading-simulation",
+    "react",
+    "nodejs",
+    "express",
+    "postgresql"
+  ],
+  "author": "SESD Project Team",
+  "license": "ISC"
+}
